@@ -7,6 +7,7 @@
 </head>
 	<link rel="shortcut icon" type="x-icon" href="ng.png">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js" defer></script>
 	<link rel="stylesheet"
  	 href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
  	 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,20 +25,30 @@
 				<li><a href="#home" class="active">HOME</a></li>
 				<li><a href="#about">ABOUT US</a></li>
 				<li><a href="#skills">SKILLS</a></li>
-				<li><a href="#">PORTFOLIO</a></li>
+				<li><a href="#Portfolio">PORTFOLIO</a></li>
 				<li><a href="#">CONTACT US</a></li>
-				
 			</ul>
 		</nav>
 	</header>
 		<section class="home" id="home">
 			<div class="menu">		
 		<h1>
-			Hi! <br> I Am <span>Syed Kumail</span> Mehdi
+			Hi!
 		</h1>
+
+		<div class="wap">
+		<h1  class="h1">
+			I Am a
+			<ul class="text">
+				<li><span>Youtuber</span></li>
+				<li><span>Devoloper</span></li>
+				<li><span>Designer</span></li>
+				<li><span>Freelancer</span></li>
+			</ul>
+		</h1>
+		</div>
 		<p>
 			I Am a Graphic Designer with 2 yrs Expeience you can see My Portfolio in this <br> Website.With a proven record as a passionate graphic designer, I am here to provide my services on Fiverr. <br>My style is simple, memorable and minimalist!
-
 		</p>
 				<div class="s-icon">
 					<a href="https://wa.me/03184211634"><i class='bx bxl-whatsapp' ></i></a>
@@ -107,9 +118,52 @@
           <span style="width:69%"></span>
         </div>
       </div>
+      <div class="skill">
+      	<b>Devolping</b>
+      	<span>57%</span>
+      	<div>
+      		<span style="width:57%"></span>
+      	</div>
+
+      </div>
     </div>
   </div>
 </div>
 	</section>
+	<section class="projects-container" id="Portfolio">
+      <div class="wrapper">
+    <!-- filter Items -->
+    <h2 class="heading-text">My Portfolio</h2>
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="bag">Poster</span>
+        <span class="item" data-name="shoe">Logos</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="bag"><span><img src="latter poster 1.jpg" alt=""></span></div>
+      <div class="image" data-name="bag"><span><img src="video editing.jpg" alt=""></span></div>
+      <div class="image" data-name="bag"><span><img src="graphic design poster.jpg" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="nobita logo ready.png" alt=""></span></div>
+      <div class="image" data-name="bag"><span><img src="551.jpg" alt=""></span></div>
+      <div class="image" data-name="bag"><span><img src="555.jpg" alt=""></span></div>
+      <div class="image" data-name="bag"><span><img src="25 decembe.png" alt=""></span></div>
+      <div class="image" data-name="shoe"><span><img src="jhulay laal logo.png" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+    </section>
+    
+  <script src="script.js"></script>
 </body>
 </html>
